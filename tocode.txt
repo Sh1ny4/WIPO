@@ -83,13 +83,3 @@ public void OnAIPartiesTravel(Hero hero, bool isCaravanParty, TerrainType curren
 		int num = (currentTerrainType == TerrainType.Forest) ? MBRandom.RoundRandomized(5f) : MBRandom.RoundRandomized(3f);
 		hero.AddSkillXp(DefaultSkills.Scouting, isCaravanParty ? ((float)num / 2f) : ((float)num));
 	}
-
-		
-// Token: 0x06002F73 RID: 12147 RVA: 0x000C9B08 File Offset: 0x000C7D08
-public void OnMainHeroTortured()
-	{
-		float skillXp = MBRandom.RandomFloatRanged(50f, 100f);
-		DefaultSkillLevelingManager.OnPersonalSkillExercised(Hero.MainHero, DefaultSkills.Roguery, skillXp, true);
-	}
-
-		
