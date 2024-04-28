@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Items>
+ <Item id="eastern_heavy_lamellar_shoulders"
+      name="Heavy Lamellar Shoulderguard"
+      mesh="sturgia_cavalry_shoulderguards"
+      weight="5.0"
+      Type="Cape">
+      <ItemComponent>
+        <Armor body_armor="6"
+              arm_armor="14"
+              modifier_group="plate"
+              material_type="Plate" />
+      </ItemComponent>
+  </Item>
+ <Item id="eastern_heavy_lamellar_armor"
+    name="Heavy Lamellar Armor"
+    mesh="sturgia_cavalry_armor_reinforced"
+    weight="25"
+    Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="46"
+            arm_armor="14"
+            leg_armor="20"
+            covers_body="true"
+            modifier_group="plate"
+            material_type="Plate" />
+    </ItemComponent>
+  </Item>
+</Items>

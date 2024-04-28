@@ -1,0 +1,70 @@
+<!-- prioritary -->
+new items, renaming, imperial lord's armours
+making tier 4 clan useful > have town  >> CanCreateArmy
+unify the empires
+travelling with caravans
+having manhunters spawn on the map
+remove caravan guard from tavern recruits, add them on an other menu
+influence usefulness
+renown loss
+spawning troops
+rework of the starting equipment system
+change button position by changing listenner from behavior - check PlayerTownVisitCampaignBehavior addgamemenu
+
+
+preferred_upgrade_formation="HorseArcher"
+empire banners
+
+----- patreons -----
+refind
+flameshot
+ancient civilization
+bretonnia
+ECM
+pardeike (harmony)
+
+----- commissions -----
+horse armours => chainmail with tabard on top
+camel armours => like in the companion DLC
+pavise but good
+varangian guards (ongoing)
+
+----- main map -----
+Gameplay :
+    castles block passage
+    Free sea travel starting from towns
+    random encounters
+    sailable rivers for nords
+    ruins that can be upraded into castles then towns
+    tunnels
+
+visitable :
+    ruines
+    temples
+    mines
+    village fantome
+    Poste commercial
+
+scenes :
+    Hideout fortifiés
+    camps
+
+Decorations :
+    chantiers (terrestres et navaux)
+    barriere de corail
+    bateaus de peches en mer
+    epaves
+    marés salants 
+    atols
+    villes coupés par des fleuves
+    volcans
+    viaduc
+    aqueduc
+    champs
+    canal
+    phare
+    grands murs
+    moulins
+    culture en terrasse
+    oasis
+    merveilles (petra, etc)
