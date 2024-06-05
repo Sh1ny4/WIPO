@@ -26,10 +26,7 @@
 	<xsl:template match="NPCCharacter[@id='aserai_youth']"/>
 	<xsl:template match="NPCCharacter[@id='aserai_tribal_horseman']"/>
 	<xsl:template match="NPCCharacter[@id='aserai_faris']"/>
-	<xsl:template match="NPCCharacter[@id='aserai_militia_archer']"/>
-	<xsl:template match="NPCCharacter[@id='aserai_militia_veteran_archer']"/>
-	<xsl:template match="NPCCharacter[@id='aserai_militia_spearman']"/>
-	<xsl:template match="NPCCharacter[@id='aserai_militia_veteran_spearman']"/>
+
 
 	<!-- Battania -->
 	<xsl:template match="NPCCharacter[@id='battanian_volunteer']"/>
@@ -52,10 +49,7 @@
 	<xsl:template match="NPCCharacter[@id='battanian_hero']"/>
 	<xsl:template match="NPCCharacter[@id='battanian_fian']"/>
 	<xsl:template match="NPCCharacter[@id='battanian_fian_champion']"/>
-	<xsl:template match="NPCCharacter[@id='battanian_militia_archer']"/>
-	<xsl:template match="NPCCharacter[@id='battanian_militia_veteran_archer']"/>
-	<xsl:template match="NPCCharacter[@id='battanian_militia_spearman']"/>
-	<xsl:template match="NPCCharacter[@id='battanian_militia_veteran_spearman']"/>
+
 	
 	<!-- Empire -->
 	<xsl:template match="NPCCharacter[@id='imperial_recruit']"/>
@@ -77,10 +71,7 @@
 	<xsl:template match="NPCCharacter[@id='imperial_heavy_horseman']"/>
 	<xsl:template match="NPCCharacter[@id='imperial_cataphract']"/>
 	<xsl:template match="NPCCharacter[@id='imperial_elite_cataphract']"/>
-	<xsl:template match="NPCCharacter[@id='imperial_militia_archer']"/>
-	<xsl:template match="NPCCharacter[@id='imperial_militia_veteran_archer']"/>
-	<xsl:template match="NPCCharacter[@id='imperial_militia_spearman']"/>
-	<xsl:template match="NPCCharacter[@id='imperial_militia_veteran_spearman']"/>
+
 	
 	<!-- Khuzait -->
 	<xsl:template match="NPCCharacter[@id='khuzait_nomad']"/>
@@ -103,10 +94,6 @@
 	<xsl:template match="NPCCharacter[@id='khuzait_heavy_lancer']"/>
 	<xsl:template match="NPCCharacter[@id='khuzait_kheshig']"/>
 	<xsl:template match="NPCCharacter[@id='khuzait_khans_guard']"/>
-	<xsl:template match="NPCCharacter[@id='khuzait_militia_archer']"/>
-	<xsl:template match="NPCCharacter[@id='khuzait_militia_veteran_archer']"/>
-	<xsl:template match="NPCCharacter[@id='khuzait_militia_spearman']"/>
-	<xsl:template match="NPCCharacter[@id='khuzait_militia_veteran_spearman']"/>
 	
 	<!-- Sturgia -->
 	<xsl:template match="NPCCharacter[@id='sturgian_recruit']"/>
@@ -129,10 +116,6 @@
 	<xsl:template match="NPCCharacter[@id='sturgian_berzerker']"/>
 	<xsl:template match="NPCCharacter[@id='sturgian_spearman']"/>
 	<xsl:template match="NPCCharacter[@id='sturgian_ulfhednar']"/>
-	<xsl:template match="NPCCharacter[@id='sturgian_militia_archer']"/>
-	<xsl:template match="NPCCharacter[@id='sturgian_militia_veteran_archer']"/>
-	<xsl:template match="NPCCharacter[@id='sturgian_militia_spearman']"/>
-	<xsl:template match="NPCCharacter[@id='sturgian_militia_veteran_spearman']"/>
 	
 	<!-- Vlandia -->
 	<xsl:template match="NPCCharacter[@id='vlandian_recruit']"/>
@@ -156,11 +139,41 @@
 	<xsl:template match="NPCCharacter[@id='vlandian_knight']"/>
 	<xsl:template match="NPCCharacter[@id='vlandian_champion']"/>
 	<xsl:template match="NPCCharacter[@id='vlandian_banner_knight']"/>
+
+
+	<!-- militia -->
+	<!--
+	<xsl:template match="NPCCharacter[@id='aserai_militia_archer']"/>
+	<xsl:template match="NPCCharacter[@id='aserai_militia_veteran_archer']"/>
+	<xsl:template match="NPCCharacter[@id='aserai_militia_spearman']"/>
+	<xsl:template match="NPCCharacter[@id='aserai_militia_veteran_spearman']"/>
+	
+	<xsl:template match="NPCCharacter[@id='battanian_militia_archer']"/>
+	<xsl:template match="NPCCharacter[@id='battanian_militia_veteran_archer']"/>
+	<xsl:template match="NPCCharacter[@id='battanian_militia_spearman']"/>
+	<xsl:template match="NPCCharacter[@id='battanian_militia_veteran_spearman']"/>
+
+	<xsl:template match="NPCCharacter[@id='imperial_militia_archer']"/>
+	<xsl:template match="NPCCharacter[@id='imperial_militia_veteran_archer']"/>
+	<xsl:template match="NPCCharacter[@id='imperial_militia_spearman']"/>
+	<xsl:template match="NPCCharacter[@id='imperial_militia_veteran_spearman']"/>
+
+	<xsl:template match="NPCCharacter[@id='khuzait_militia_archer']"/>
+	<xsl:template match="NPCCharacter[@id='khuzait_militia_veteran_archer']"/>
+	<xsl:template match="NPCCharacter[@id='khuzait_militia_spearman']"/>
+	<xsl:template match="NPCCharacter[@id='khuzait_militia_veteran_spearman']"/>
+
+	<xsl:template match="NPCCharacter[@id='sturgian_militia_archer']"/>
+	<xsl:template match="NPCCharacter[@id='sturgian_militia_veteran_archer']"/>
+	<xsl:template match="NPCCharacter[@id='sturgian_militia_spearman']"/>
+	<xsl:template match="NPCCharacter[@id='sturgian_militia_veteran_spearman']"/>
+
 	<xsl:template match="NPCCharacter[@id='vlandian_militia_archer']"/>
 	<xsl:template match="NPCCharacter[@id='vlandian_militia_veteran_archer']"/>
 	<xsl:template match="NPCCharacter[@id='vlandian_militia_spearman']"/>
 	<xsl:template match="NPCCharacter[@id='vlandian_militia_veteran_spearman']"/>
-
+	-->
+	
 	<!-- bandits -->
 	<xsl:template match="NPCCharacter[@id='looter']"/>
 	<xsl:template match="NPCCharacter[@id='deserter']"/>
