@@ -4,11 +4,9 @@ making tier 4 clan useful > have town  >> CanCreateArmy
 unify the empires
 travelling with caravans
 having manhunters spawn on the map
-remove caravan guard from tavern recruits, add them on an other menu
 influence usefulness
 renown loss
 spawning troops
-rework of the starting equipment system
 change button position by changing listenner from behavior - check PlayerTownVisitCampaignBehavior addgamemenu
 
 
@@ -27,7 +25,6 @@ pardeike (harmony)
 horse armours => chainmail with tabard on top
 pavise but good
 varangian guards (ongoing)
-camel armours (ongoing)
 
 ----- main map -----
 Gameplay :

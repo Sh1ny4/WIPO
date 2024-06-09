@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Items>
- <Item id="eastern_heavy_lamellar_shoulders"
+  <Item id="eastern_heavy_lamellar_shoulders"
       name="Heavy Lamellar Shoulderguard"
       mesh="sturgia_cavalry_shoulderguards"
       weight="5.0"
@@ -12,18 +12,67 @@
               material_type="Plate" />
       </ItemComponent>
   </Item>
- <Item id="eastern_heavy_lamellar_armor"
-    name="Heavy Lamellar Armor"
-    mesh="sturgia_cavalry_armor_reinforced"
-    weight="25"
-    Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="46"
-            arm_armor="14"
-            leg_armor="20"
-            covers_body="true"
-            modifier_group="plate"
-            material_type="Plate" />
-    </ItemComponent>
+  <Item id="eastern_heavy_lamellar_armor"
+      name="Heavy Lamellar Armor"
+      mesh="sturgia_cavalry_armor_reinforced"
+      weight="25"
+      Type="BodyArmor">
+      <ItemComponent>
+        <Armor body_armor="46"
+              arm_armor="14"
+              leg_armor="20"
+              covers_body="true"
+              modifier_group="plate"
+              material_type="Plate" />
+      </ItemComponent>
+  </Item>
+  
+  <Item id="varangian_helmet" 
+      name="Varangian Helmet" 
+      mesh="cts_varanguian_helmet" 
+      subtype="head_armor" 
+      culture="Culture.sturgia"
+      weight="4.0"
+      Type="HeadArmor">
+      <ItemComponent>
+        <Armor head_armor="50"
+              covers_head="false"
+              hair_cover_type="type2" 
+              beard_cover_type="none" 
+              modifier_group="plate" 
+              material_type="Plate"/>
+      </ItemComponent>
+  </Item>
+  <Item id="varangian_armor" 
+        name="Varangian Armor" 
+        mesh="cts_varanguian_armor"
+        subtype="body_armor" 
+        culture="Culture.sturgia"
+        weight="13.0"
+        Type="BodyArmor">
+        <ItemComponent>
+          <Armor head_armor="0" 
+                arm_armor="10" 
+                body_armor="40" 
+                leg_armor="10"
+                covers_body="true" 
+                covers_legs="true"
+                modifier_group="Plate" 
+                material_type="Plate"/>
+        </ItemComponent>
+  </Item>
+  <Item id="varangian_boots" 
+      name="Varangian Boots" 
+      mesh="cts_varanguian_boots"
+      subtype="leg_armor" 
+      culture="Culture.sturgia"
+      weight="7.0" 
+      Type="LegArmor">
+      <ItemComponent>
+        <Armor leg_armor="20" 
+              covers_legs="false"
+              modifier_group="plate" 
+              material_type="Plate"/>
+      </ItemComponent>
   </Item>
 </Items>
