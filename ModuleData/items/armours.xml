@@ -53,7 +53,7 @@
         <ItemComponent>
           <Armor head_armor="0" 
                 arm_armor="10" 
-                body_armor="40" 
+                body_armor="50" 
                 leg_armor="10"
                 covers_body="true" 
                 covers_legs="true"
