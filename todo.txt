@@ -8,6 +8,33 @@ influence usefulness
 renown loss
 spawning troops
 
+buldings : 
+    towns:  
+        walls
+        workshops
+        market
+        guild hall
+        university
+        town hall
+        hospital
+
+
+    castles : 
+        walls
+        inner garden
+        training ground
+        siege workshops
+        workshops
+        office
+
+
+    projects:
+        training
+        militia creation
+        influence
+        loyalty
+
+
 
 preferred_upgrade_formation="HorseArcher"
 empire banners
